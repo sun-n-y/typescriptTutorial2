@@ -37,16 +37,16 @@ printStaffDetails(boss);
 
 //intersection type
 
-type Book = { id: number; name: string; price: number };
+// type Book = { id: number; name: string; price: number };
 
-const book1: Book = { id: 1, name: 'cooking', price: 50 };
+// const book1: Book = { id: 1, name: 'cooking', price: 50 };
 
-const discountedBook2: Book & { discount: number } = {
-  id: 1,
-  name: 'cooking',
-  price: 50,
-  discount: 25,
-};
+// const discountedBook2: Book & { discount: number } = {
+//   id: 1,
+//   name: 'cooking',
+//   price: 50,
+//   discount: 25,
+// };
 
 //computed
 
